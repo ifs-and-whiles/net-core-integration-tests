@@ -1,0 +1,27 @@
+version: '3.1'
+services:
+
+  db:
+    image: postgres:12.1
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: testpassword
+      POSTGRES_DB: integrationtest
+    ports:
+      - "5433:5432"
+    volumes:
+      - integration-tests-postgres-data:/var/lib/postgresql/data
+  rabbitmq:
+    image: "rabbitmq:3.7.3"
+    hostname: integration-tests-rabbitmq 
+    ports:
+      - "5673:5672"
+      - "15672:15671"
+    volumes:
+      - "./rabbitmq-config:/etc/rabbitmq"
+      - "/rabbitmq:/var/lib/rabbitmq"
+    restart: always
+
+volumes:
+  integration-tests-postgres-data:

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreIntegrationTestsSample", "NetCoreIntegrationTestsSample\NetCoreIntegrationTestsSample.csproj", "{79B546FC-F32D-4791-A89E-CEE5FA9C58FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreIntegrationTestsSample.Tests", "NetCoreIntegrationTestsSample.Tests\NetCoreIntegrationTestsSample.Tests.csproj", "{419FD6CA-6AE6-48A0-A4F9-F9BE4CAD5AD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79B546FC-F32D-4791-A89E-CEE5FA9C58FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B546FC-F32D-4791-A89E-CEE5FA9C58FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B546FC-F32D-4791-A89E-CEE5FA9C58FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B546FC-F32D-4791-A89E-CEE5FA9C58FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419FD6CA-6AE6-48A0-A4F9-F9BE4CAD5AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419FD6CA-6AE6-48A0-A4F9-F9BE4CAD5AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419FD6CA-6AE6-48A0-A4F9-F9BE4CAD5AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419FD6CA-6AE6-48A0-A4F9-F9BE4CAD5AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
